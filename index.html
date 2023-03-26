@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/538942b924.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-
-
+    <div class="body">
+        <div class="container">
+            <label for="">9 x 0 = <span id="zero"></span>
+            </label>
+            <label for="">9 x 1 = <span id="un"></span></label>
+            <label for="">9 x 2 = <span id="deux"></span></label>
+            <label for="">9 x 3 = <span id="trois"></span></label>
+            <label for="">9 x 4 = <span id="quatre"></span></label>
+            <label for="">9 x 5 = <span id="cinq"></span></label>
+            <label for="">9 x 6 = <span id="six"></span></label>
+            <label for="">9 x 7 = <span id="sept"></span></label>
+            <label for="">9 x 8 = <span id="huit"></span></label>
+            <label for="">9 x 9 = <span id="neuf"></span></label>
+            <label for="">9 x 10 = <span id="dix"></span></label>
+        </div>
+        <div class="addbtn">
+            <button dr draggable="true" id="0">0</button>
+            <button draggable="true" id="1" ondragstart="event.dataTransfer.setData('text/plain',null)">9</button>
+            <button dropzone="" draggable="true" id="2">18</button>
+            <button draggable="true" id="3">27</button>
+            <button draggable="true" id="4">36</button>
+            <button draggable="true" id="5">45</button>
+            <button draggable="true" id="6">54</button>
+            <button draggable="true" id="7">63</button>
+            <button draggable="true" id="8">72</button>
+            <button draggable="true" id="9">81</button>
+            <button draggable="true" id="10">90</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
